@@ -2,21 +2,18 @@
 
 # Pi-Harness-Skills
 
-Two skills for AI coding agents that can't run MCP servers, like
-[Pi](https://pi.dev). Both are self-contained CLI tools designed to be
-dropped into a skills directory and invoked by an agent as ordinary shell
-commands.
+Two skills for the agentic coding harness [Pi](https://pi.dev). Both are 
+self-contained CLI tools designed to be dropped into a skills directory 
+and invoked by an agent as ordinary shell commands.
 
 - [`browser-tools`](browser-tools/): Chromium browser automation and
-  debugging over the Chrome DevTools Protocol. An MCP-free alternative to
-  Playwright MCP and Chrome DevTools MCP.
+  debugging over the Chrome DevTools Protocol. **A genuine MCP-free alternative 
+  to Playwright MCP and Chrome DevTools MCP.**
 - [`web-search`](web-search/): Web search via a self-hosted
-  [SearXNG](https://docs.searxng.org/) instance. An MCP-free alternative to
-  search MCP servers.
+  [SearXNG](https://docs.searxng.org/) instance. **An MCP-free alternative to
+  paid search MCP servers.**
 
-Both work in any harness that can run a Node.js script (Pi, Claude Code,
-Codex, your own loop). They were built primarily for Pi, which doesn't
-support MCP at all, but nothing about them is Pi-specific.
+Both of the skills have been battle-tested by me.
 
 ---
 
