@@ -1,3 +1,5 @@
+<img width="999" height="533" alt="1_2NjPwcujUP4RBuF1XJ39tw" src="https://github.com/user-attachments/assets/7f32cec4-f413-42f1-8433-50b269e3683a" />
+
 # Pi-Harness-Skills
 
 Two skills for AI coding agents that can't run MCP servers, like
