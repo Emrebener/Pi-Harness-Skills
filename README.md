@@ -17,6 +17,30 @@ Both of the skills have been battle-tested by me.
 
 ---
 
+## Setup
+
+What each skill needs before its tools will run:
+
+### browser-tools
+
+- **Node.js** 20, 22, or 24 LTS (Node 26 has a puppeteer extraction bug — see
+  the skill's `SKILL.md`).
+- **`npm install`** in the `web-utilities/browser-tools/` directory — this also downloads a
+  private copy of Chromium (~150 MB, one-time), so no separate browser
+  install is needed.
+
+### web-search
+
+- **Node.js** 18 or newer (for the built-in `fetch`).
+- **A reachable SearXNG instance** with the JSON format enabled (`json` listed
+  under `search.formats` in its `settings.yml`).
+- It's up to you to self-host SearXNG and make sure it's reachable, probably through localhost.
+- The reachable instance URL must be configured via the `SEARXNG_URL` environment variable, or
+  by copying `web-utilities/web-search/config.example.json` to
+  `web-utilities/web-search/config.json` and setting `searxng_url`.
+
+---
+
 ## browser-tools
 
 23 small CLI scripts wrapping a bundled puppeteer. Connects to Chromium on
